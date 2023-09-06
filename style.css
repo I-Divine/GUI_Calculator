@@ -1,3 +1,8 @@
+header h1{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
 #numpad{
     display: grid;
     grid-template-columns: 30% 30% 30% ;
@@ -7,7 +12,7 @@
 }
 #keypad{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 80% 20%;
     /* width: ; */
 }
 #operationButtons{
@@ -20,22 +25,36 @@
 }
 button{
     font-size: 2em;
+    margin: 2px;
+    border-radius: 5px;
+    color: wheat;
 }
 #operationButtons button{
     padding: 10px;
 }
 #Calculator{
-    min-width: 450px ;
+    max-width: 750px ;
     width: 80vw;
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    top: 30%;
+    transform: translate(-50%,-30%);
 }
 #display{
     width: 100%;
     height: 40px;
     border: solid black 3px;
+    background-color: rgba(90, 89, 89, 0.973);
     border-radius: 5px;
     margin: 20px 0px;
+}
+#equals, .operation{
+    background-color: rgb(194, 135, 27);
+
+}
+.num{
+    background-color: rgb(66, 65, 65);
+}
+body{
+    background-color: rgb(48, 47, 47);
 }
