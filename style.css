@@ -29,6 +29,9 @@ button{
     border-radius: 5px;
     color: wheat;
 }
+#numpad :hover{
+    border: white 2px solid;
+}
 #operationButtons button{
     padding: 10px;
 }
